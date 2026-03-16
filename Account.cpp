@@ -10,6 +10,8 @@ void Account::deposit(double amount) {
 }
 
 void Account::displayInfo() const {
+    std::cout << "TK: " << accountNumber << " | Chu: " << ownerName 
+              << " | So du: " << balance << " VND";
 }
 
 std::string Account::getAccNum() const { return accountNumber; }
